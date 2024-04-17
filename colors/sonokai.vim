@@ -13,7 +13,7 @@ let s:path = expand('<sfile>:p') " the path of this script
 let s:last_modified = 'Wed Mar 27 02:48:35 PM UTC 2024'
 let g:sonokai_loaded_file_types = []
 
-if !(exists('g:colors_name') && g:colors_name ==# 'sonokai' && s:configuration.better_performance)
+if !(exists('g:colors_name') && g:colors_name ==# 'sonokai_modified' && s:configuration.better_performance)
   highlight clear
   if exists('syntax_on')
     syntax reset
