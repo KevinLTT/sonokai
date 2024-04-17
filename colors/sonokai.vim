@@ -467,7 +467,7 @@ highlight! link TSLiteral String
 highlight! link TSMath Yellow
 highlight! link TSMethod Blue
 highlight! link TSMethodCall Blue
-highlight! link TSNamespace BlueItalic
+highlight! link TSNamespace GreenItalic
 highlight! link TSNone Fg
 highlight! link TSNumber Purple
 highlight! link TSOperator Red
