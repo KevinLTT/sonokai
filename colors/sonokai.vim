@@ -20,7 +20,7 @@ if !(exists('g:colors_name') && g:colors_name ==# 'sonokai' && s:configuration.b
   endif
 endif
 
-let g:colors_name = 'sonokai'
+let g:colors_name = 'sonokai_modified'
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running') && &t_Co != 256
   finish
