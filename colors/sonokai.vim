@@ -361,7 +361,7 @@ let g:sonokai_lsp_kind_color = [
       \ ["Field", "Green"],
       \ ["File", "Green"],
       \ ["Folder", "Yellow"],
-      \ ["Function", "Green"],
+      \ ["Function", "Blue"],
       \ ["Interface", "Blue"],
       \ ["Key", "Red"],
       \ ["Keyword", "Red"],
@@ -453,9 +453,9 @@ highlight! link TSError Error
 highlight! link TSException Red
 highlight! link TSField Orange
 highlight! link TSFloat Purple
-highlight! link TSFuncBuiltin Green
-highlight! link TSFuncMacro Green
-highlight! link TSFunction Green
+highlight! link TSFuncBuiltin Blue
+highlight! link TSFuncMacro Blue
+highlight! link TSFunction Blue
 highlight! link TSFunctionCall Blue
 highlight! link TSInclude Red
 highlight! link TSKeyword Red
