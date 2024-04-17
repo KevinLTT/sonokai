@@ -365,7 +365,7 @@ let g:sonokai_lsp_kind_color = [
       \ ["Interface", "Blue"],
       \ ["Key", "Red"],
       \ ["Keyword", "Red"],
-      \ ["Method", "Green"],
+      \ ["Method", "Blue"],
       \ ["Module", "Blue"],
       \ ["Namespace", "Red"],
       \ ["Null", "Yellow"],
@@ -379,7 +379,7 @@ let g:sonokai_lsp_kind_color = [
       \ ["String", "Yellow"],
       \ ["Struct", "Blue"],
       \ ["Text", "Fg"],
-      \ ["TypeParameter", "Blue"],
+      \ ["TypeParameter", "Green"],
       \ ["Unit", "Purple"],
       \ ["Value", "Purple"],
       \ ["Variable", "Orange"],
@@ -456,7 +456,7 @@ highlight! link TSFloat Purple
 highlight! link TSFuncBuiltin Green
 highlight! link TSFuncMacro Green
 highlight! link TSFunction Green
-highlight! link TSFunctionCall Green
+highlight! link TSFunctionCall Blue
 highlight! link TSInclude Red
 highlight! link TSKeyword Red
 highlight! link TSKeywordFunction Red
@@ -465,8 +465,8 @@ highlight! link TSKeywordReturn Red
 highlight! link TSLabel Red
 highlight! link TSLiteral String
 highlight! link TSMath Yellow
-highlight! link TSMethod Green
-highlight! link TSMethodCall Green
+highlight! link TSMethod Blue
+highlight! link TSMethodCall Blue
 highlight! link TSNamespace BlueItalic
 highlight! link TSNone Fg
 highlight! link TSNumber Purple
@@ -494,9 +494,9 @@ highlight! link TSText Green
 highlight! link TSTextReference Constant
 highlight! link TSTitle Title
 highlight! link TSTodo Todo
-highlight! link TSType BlueItalic
-highlight! link TSTypeBuiltin BlueItalic
-highlight! link TSTypeDefinition BlueItalic
+highlight! link TSType GreenItalic
+highlight! link TSTypeBuiltin GreenItalic
+highlight! link TSTypeDefinition GreenItalic
 highlight! link TSTypeQualifier Red
 call sonokai#highlight('TSURI', s:palette.blue, s:palette.none, 'underline')
 highlight! link TSVariable Fg
@@ -2292,11 +2292,11 @@ highlight! link pythonDecoratorName OrangeItalic
 " }}}
 " python-syntax: https://github.com/vim-python/python-syntax{{{
 highlight! link pythonExClass BlueItalic
-highlight! link pythonBuiltinType BlueItalic
+highlight! link pythonBuiltinType GreenItalic
 highlight! link pythonBuiltinObj OrangeItalic
 highlight! link pythonDottedName OrangeItalic
-highlight! link pythonBuiltinFunc Green
-highlight! link pythonFunction Green
+highlight! link pythonBuiltinFunc Blue
+highlight! link pythonFunction Blue
 highlight! link pythonDecorator OrangeItalic
 highlight! link pythonInclude Include
 highlight! link pythonImport PreProc
